@@ -1,0 +1,71 @@
+.mathphare-banner {
+    position: relative;
+    height: 100vh;
+    background-color: #1a4a4a;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    inset: 0;
+    background-image: url('D:\X files\Proyectos programación\Desarrollo web\mathphare\public\resources\img\_12e91fc8-d29a-490f-a520-5808e07ec4e8.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 5%, rgba(0,0,0,0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 5%, rgba(0,0,0,0));
+    z-index: 0;
+  }
+
+  .mathphare-banner::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #2647468c;
+    backdrop-filter: blur(6px);
+    z-index: 2;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .content h1 {
+    font-size: 3.75rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .mathphare-button {
+    background-color: rgba(44, 122, 123, 0.7);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, backdrop-filter 0.3s;
+    backdrop-filter: blur(5px);
+  }
+  
+  .mathphare-button:hover {
+    background-color: rgba(49, 151, 149, 0.8);
+    backdrop-filter: blur(8px);
+  }

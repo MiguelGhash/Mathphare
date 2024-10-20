@@ -1,0 +1,229 @@
+.grapher-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 117, 136);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .graph-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+    margin-left: 20px;
+  }
+  
+  .icon-button {
+    background-color: #f0f0f0;
+    padding: 1px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar {
+    width: 400px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d72b8;
+   
+  }
+  
+  .save-button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1d72b8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #1661a6;
+  }
+  
+  .equation-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Color de fondo para que se vea mejor */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .color-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .equation-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    margin-left: 10px;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 5px; /* Añadir un poco de padding para mejor clicabilidad */
+  }
+  
+  .remove-button:hover {
+    color: #e57373;
+  }
+  
+  .add-equation-button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1d72b8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-equation-button:hover {
+    background-color: #1661a6;
+  }
+ 
+  .grapher-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #194550;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .graph-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+    margin-left: 20px;
+  }
+  
+  .icon-button {
+    background-color: #f0f0f0;
+    padding: 1px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar {
+    width: 350px;
+    background-color: #264746;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .save-button {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1d72b8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #1661a6;
+  }
+  
+  .equation-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 3px; /* Añadir un poco de padding */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Color de fondo para que se vea mejor */
+    border-radius: 9px; /* Bordes redondeados */
+  }
+
+
+  
+  .equation-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    margin-left: 10px;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 5px; /* Añadir un poco de padding para mejor clicabilidad */
+  }
+  
+  .remove-button:hover {
+    color: #e57373;
+  }
+  
+  .add-equation-button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1d72b8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-equation-button:hover {
+    background-color: #1661a6;
+  }
+  
+
+  .color-menu {
+  display: none; /* Ocultar el menú por defecto */
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.color-indicator:focus-within .color-menu {
+  display: block; /* Mostrar menú al hacer clic en el indicador */
+}
+
+.color-option {
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+}
+
+.color-option:hover {
+  opacity: 0.8; /* Cambiar la opacidad al pasar el ratón */
+}
