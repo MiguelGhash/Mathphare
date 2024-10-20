@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mathphare/static/css/main.8f1aaccf.css",
+    "main.js": "/mathphare/static/js/main.10332390.js",
+    "static/js/453.cd1d4ba3.chunk.js": "/mathphare/static/js/453.cd1d4ba3.chunk.js",
+    "static/media/_12e91fc8-d29a-490f-a520-5808e07ec4e8.webp": "/mathphare/static/media/_12e91fc8-d29a-490f-a520-5808e07ec4e8.ea052259f3e14ed47179.webp",
+    "index.html": "/mathphare/index.html",
+    "main.8f1aaccf.css.map": "/mathphare/static/css/main.8f1aaccf.css.map",
+    "main.10332390.js.map": "/mathphare/static/js/main.10332390.js.map",
+    "453.cd1d4ba3.chunk.js.map": "/mathphare/static/js/453.cd1d4ba3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f1aaccf.css",
+    "static/js/main.10332390.js"
+  ]
+}
